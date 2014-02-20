@@ -1,0 +1,17 @@
+{
+  "name": "node-ibeacon",
+  "version": "0.0.1",
+  "author": "Dongri",
+  "private": true,
+  "scripts": {
+    "start": "node sender.js",
+    "test": "make test"
+  },
+  "engines": {
+    "node": "0.10.21",
+    "npm":  "1.2.25"
+  },
+  "dependencies": {
+    "bleacon": "0.2.0"
+  }
+}
